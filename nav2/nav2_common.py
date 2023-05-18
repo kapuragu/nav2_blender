@@ -1,0 +1,15 @@
+from enum import IntFlag
+
+
+class ENTRY_TYPE(IntFlag):
+    NAVWORLD = 0,
+    NAVMESH_CHUNK = 1,
+    NAVWORLD_SEGMENT_GRAPH = 3,
+    SEGMENT_CHUNK = 4
+
+
+class ENTRY_TYPE_UINT8(IntFlag):
+    TYPE_NAVWORLD = 0,
+    TYPE_NAVMESH_CHUNK = 1,
+    TYPE_NAVWORLD_SEGMENT_GRAPH = 3,
+    TYPE_SEGMENT_CHUNK = 4
